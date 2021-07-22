@@ -1,3 +1,9 @@
+# Elgato Key Light Emulator.
+
+So far i have made a proof of concept using a node.js :)
+but sadly bonjour discovery isnt working so you will have to manually add it to control center
+
+
 ~~# Elgato Control Center - Reverse Engineering~~
 
 ~~Hii, im working on emulating either a elgato key light, key light air, led strip or ring light~~
