@@ -1,0 +1,11 @@
+{
+    "productName": "Elgato Key Light",
+    "hardwareBoardType": 53,
+    "firmwareBuildNumber": 192,
+    "firmwareVersion": "1.0.69",
+    "serialNumber": "abc123",
+    "displayName": "ESP",
+    "features": [
+        "lights"
+    ]
+}
