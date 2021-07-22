@@ -28,6 +28,21 @@ So far i've been able to get a proof of concept working using node.js, though se
   - [ ]  Polishing off the NodeJs code and turning it into **npm  package**
  - [ ]  Custom Firmware updating (Over the air updates)
 
+### How to use 🧭
+  ##### Prerequisites
+  - Node JS
+  - Elgato Control Center
+  - Your router doesnt block mDNS/Bonjour/Multicast
+  ##### Start
+  First clone/download this repo and open the folder called "NodeJS"
+  
+  1.     npm install
+  2.   edit the json files in "Device" to your liking (make sure everthing matches e.g Serial Numbers)
+  3.     npm run start
+  4.    then follow [this tutorial](https://www.hanselman.com/blog/fix-for-elgato-key-light-not-found-by-control-center) to manually add a key light (make sure infomation is matching)
+  5.  now open up elgato control center and you should be able to move the dimmers and press buttons and see the response in json form in the NodeJS output :)
+
+
 ### How it works 💻
 more will be added soon (either in wiki or here)
 
